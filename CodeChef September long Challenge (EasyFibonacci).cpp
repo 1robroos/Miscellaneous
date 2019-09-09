@@ -6,10 +6,11 @@ int main()
     cin>>t;
     if(t==0)
     return 0;
-    unsigned long int n,f_1=0,f_2=1,d[100000];
+    unsigned long int n;
     
     while(t--)
     {
+        unsigned long int n,f_1=0,f_2=1,d[100000];
 
     cin>>n;
     if(n==0)
